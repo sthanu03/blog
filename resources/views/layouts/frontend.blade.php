@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,9 +7,10 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>Blog Website</title>
 
     <!-- Bootstrap core CSS -->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
@@ -23,10 +24,10 @@
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
-                <a class="text-muted" href="#">Subscribe</a>
+                
           </div>
             <div class="col-4 text-center">
-                    <a class="blog-header-logo text-dark" href="#">Large</a>
+                    <a class="blog-header-logo text-dark" href="#">Blog</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                     <a class="text-muted" href="#">
@@ -46,10 +47,16 @@
     
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>Blog Website Built <a href="https://getbootstrap.com/"></a> By <a href="https://twitter.com/mdo">codeX99</a>.</p>
       <p>
         <a href="#">Back to top</a>
+
+        <i class="glyphicon glyphicon-cloud"></i>
+       
       </p>
+
+      
+
     </footer>
 
     <!-- Bootstrap core JavaScript

@@ -17,7 +17,7 @@
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
               <h3 class="mb-0">
-                <a class="text-dark" href="#">{{ $post->title }}</a>
+                <a class="text-dark" href="{{ route('posts.show', $post->id) }}">{{ $post->title }}</a>
               </h3>
               <div class="mb-1 text-muted">{{ date('Y-m-d', strtotime($post->created_at)) }}</div>
               <p class="card-text mb-auto">{{ $post->description }}</p>
